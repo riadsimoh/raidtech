@@ -1,0 +1,120 @@
+body p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.showcase {
+  padding: 0px !important;
+  min-height: 100vh;
+
+  background-image: url('./images/nature.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  background-color: rgba(233, 18, 18, 0) !important;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 0 1rem !important;
+}
+.nav-link :hover {
+  color: #0d7377 !important ;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.header-content p {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=fff') !important;
+}
+.header-content h1 {
+  font-size: 4rem;
+}
+
+@media screen and (max-width: 900px) {
+  .header-content h1 {
+    font-size: 2.8rem;
+  }
+  .header-content p {
+    font-size: 1.5rem;
+  }
+}
+
+/* @media screen and (max-width: 900px) {
+  .header-content h1 {
+    font-size: 3rem;
+  }
+  .header-content p {
+    font-size: 1.2rem;
+  }
+} */
+.project {
+  text-shadow: black 0.2em 0.2em 0.2em;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  border-radius: 30px;
+}
+.navbar-container {
+  padding: 1rem;
+}
+.header-content {
+  margin-top: 3rem;
+}
+.card-body img {
+  width: auto;
+  height: 200px;
+  margin-top: 50px;
+  transform: scale(1);
+
+  transition: 0.3s ease-in-out;
+}
+.card-body img:hover {
+  transform: scale(1.3);
+}
+footer {
+  background-color: #0d7377 !important;
+  color: #fff;
+}
+.fab {
+  color: #fff;
+}
+.img-info {
+  background-image: url('https://www.rskcom.com/wp-content/uploads/2018/10/corsicasailing-design-location-bateaux-porto-vecchio.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 500px;
+  margin: auto;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.info-row {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  padding: 4rem 1rem;
+}
+.r {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .servies-title {
+    font-size: 3rem !important;
+  }
+}
+button {
+  background-color: #0d7377 !important ;
+}
