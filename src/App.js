@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,7 +14,7 @@ import UpButton from './components/UpButton';
 
 function App() {
   return (
-    <Router>
+    <Router path={process.env.PUBLIC_URL + '/'}>
       <div className="App">
         <Header />
         <Switch>
