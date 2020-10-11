@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
